@@ -1,0 +1,123 @@
+You have an error in your SQL syntax
+Warning: mysql_
+supplied argument is not a valid MySQL result resource
+Syntax error
+Not found
+Server Error
+Error Occurred While Processing Request
+zimbra_user
+zimbra_ldap_password
+ldap_replication_password
+ldap_root_password
+ldap_nginx_password
+mailboxd_keystore_password
+zimbra_mysql_password
+zimbra_root_password
+mysql_root_password
+mailboxd_truststore_password
+ldap_postfix_password
+ldap_amavis_password
+MariaDB server version for the right syntax
+function.mysql
+MySQL result index 
+MySQL Error
+MySQL ODBC
+MySQL Driver
+mysqli.query
+num_rows
+mysql error:
+on MySQL result index
+Error Executing Database Query
+mysql_
+mysql_fetch_array\(\)
+mysql_fetch
+Microsoft JET Database
+ADODB.Recordset 
+Unclosed quotation mark
+500 - Internal server error
+Microsoft OLE DB Provider
+Unclosed quotes
+ADODB.Command 
+ADODB.Field error
+Microsoft VBScript
+Microsoft OLE DB Provider for SQL Server
+Unclosed quotation mark
+Microsoft OLE DB Provider for Oracle
+Active Server Pages error
+OLE/DB provider returned message
+OLE DB Provider for ODBC  
+error 800a0d5d
+error 800a000d 
+Unclosed quotation mark after the character string 
+\[Microsoft\]\[SQL Server Native Client 11.0\]\[SQL Server\]
+Warning: odbc_
+unexpected end of SQL command
+ORA-01756
+ORA-
+Oracle ODBC
+Oracle Error
+Oracle Driver
+Oracle DB2
+Error ORA-
+SQL command not properly ended
+DB2 ODBC
+DB2 error
+Driver
+ODBC SQL
+ODBC DB2
+ODBC Driver
+Microsoft Access
+Oracle
+Microsoft Access Driver
+OLE DB Provider for ODBC
+Warning: pg_
+PostgreSql Error:
+function.pg
+Supplied argument is not a valid PostgreSQL result
+PostgreSQL query failed: ERROR: parser: parse error
+POSTGRESQL-06:pg_
+Warning: sybase_             
+function\.sybase
+Sybase result index             
+Sybase Error:
+Sybase: Server message:
+\[Sybase\]\[ODBC Driver\]:
+sybase_
+Error Executing Database Query             
+SQLServer JDBC Driver
+JDBC SQL
+JDBC Oracle
+JDBC MySQL
+JDBC Error
+JDBC Driver         
+Not found
+Warning: include
+Fatal error: include
+Warning: require
+Fatal error: require
+ADODB_Exce2ption              
+Warning: include\(
+Warning: require_once\(
+function.include
+Disallowed Parent Path
+function.require
+Warning: main\(
+Warning: session_start\(\)
+Warning: getimagesize\(\)
+Warning: array_merge\(\)
+Warning: preg_match\(\)
+GetArray\(\)
+FetchRow\(\)
+Warning: preg_
+Warning: ociexecute\(\)     
+Warning: ocifetchstatement\(\)
+Version Information: Microsoft \.NET Framework
+ASP.NET is configured to show verbose error messages
+BOF or EOF
+Unclosed quotation mark
+Error converting data type varchar to numeric
+Input string was not in a correct format
+An illegal character has been found in the statement
+Invalid Querystring
+Fatal error
+Incorrect syntax near
