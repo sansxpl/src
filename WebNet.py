@@ -65,7 +65,7 @@ if not os.path.exists("./output"):
     os.makedirs("./output")
 
 if not os.path.exists("./.temp"):
-   bos.makedirs("./.temp")
+   os.makedirs("./.temp")
 
 if not os.path.exists("./src"):
     os.makedirs("./src")
