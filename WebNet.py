@@ -55,9 +55,10 @@ if sys.version[0] in '2':
      exit()
 
 print(f"{systm}{BG} Cleaning Temp Folder...\n")
-for i in os.listdir("./.temp"):
-  if os.path.exists(os.path.join("./.temp", i)):
-    os.remove(os.path.join("./.temp", i))
+if os.path.exists("./.temp"):
+  for i in os.listdir("./.temp"):
+    if os.path.exists(os.path.join("./.temp", i)):
+      os.remove(os.path.join("./.temp", i))
 
 #Setup =====================================
 if not os.path.exists("./output"):
