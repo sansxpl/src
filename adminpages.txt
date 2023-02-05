@@ -15,8 +15,13 @@ AdminLogIn
 AdminLogIn
 AdminLogIn
 phpmyadmin/
+PHPMyAdmin/
+PhpMyAdmin/
+MyAdmin/
 controlpanel/
+control_panel/
 cpanel/
+CPanel/
 auth
 dashboard/
 login/
