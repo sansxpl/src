@@ -1,0 +1,35 @@
+
+#Normal Package
+sudo apt install python -y
+sudo apt install php -y
+sudo apt install nano -y
+sudo apt install git -y
+sudo apt install clone -y
+sudo apt install wget -y
+sudo apt install toilet -y
+sudo apt install curl -y
+sudo apt install jq -y
+sudo apt install perl -y
+
+#Hacking Package
+sudo apt install whois -y
+sudo apt install nmap -y
+sudo apt install dirb -y
+sudo apt install dirbuster -y
+sudo apt install gobuster -y
+sudo apt install joomscan -y
+sudo apt install wpscan -y
+sudo apt install sqlmap -y
+sudo apt install hashid -y
+sudo apt install john -y
+sudo apt install hydra -y
+sudo apt install whatweb -y
+sudo apt install hashcat -y
+sudo apt install wordlists -y
+sudo apt install netcat-traditional -y
+sudo apt install apktool -y
+sudo apt install nikto -y
+sudo apt install sherlock -y
+sudo apt install sslscan -y
+sudo apt install fcrackzip -y
+sudo apt install dex2jar -y
