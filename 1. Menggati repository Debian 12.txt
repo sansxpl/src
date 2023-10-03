@@ -1,0 +1,24 @@
+Mengganti Repository Debian 12 ke server Indonesia
+--------------------------------------------------
+
+1. Masuk ke root
+
+   $ su -
+
+
+2. Buka file sources.list yang berada di directory /etc/apt/ 
+
+   # nano /etc/apt/sources.list
+
+   Tambahkan daftar berikut:
+    
+    deb http://kartolo.sby.datautama.net.id/debian/ bookworm main contrib non-free
+    deb http://kartolo.sby.datautama.net.id/debian/ bookworm-updates main contrib non-free
+    deb http://kartolo.sby.datautama.net.id/debian-security/ bookworm/updates main contrib non-free 
+
+
+3. Update dan Refrest daftar Repository
+
+   # apt-update
+
+
