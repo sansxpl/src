@@ -66,6 +66,9 @@ install_lamp() {
     echo "Renaming index.html..."
     sudo mv /var/www/html/index.html /var/www/html/_index.html
 
+    echo "Chmoding var/www"
+    chmod 777 /var/www/html
+
     echo "LAMP stack installed successfully."
 }
 
