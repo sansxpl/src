@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 # Function to remove existing LAMP components
 
 remove_lamp() {
@@ -92,19 +90,41 @@ install_lamp() {
 
     sudo mv /tmp/php.ini /etc/php/8.2/apache2/php.ini
 
-
-
     echo "Restarting Apache to apply changes..."
 
     sudo systemctl restart apache2
 
+    echo "Testing LAMP Server..."
+    echo "<?php phpinfo(); ?>" > /var/www/html/info.php
+    
+    if(check_lamp("localhost/index.html") contains "200"){
+    echo "Apache2 successfully installed"
+    }
 
+    if(check_lamp("localhost/info.php") contains "200"){
+    echo "PHP successfully installed"
+    }
+    
+    echo "Renaming index.html..."
+    mv /var/www/html/index.html /var/www/html/_index.html
 
     echo "LAMP stack installed successfully."
 
 }
 
+# Function to check LAMP
 
+check_lamp(url){
+URL=url
+
+response=$(curl -s -w "%{http_code}" $URL)
+
+http_code=$(tail -n1 <<< "$response")  # get the last line
+content=$(sed '$ d' <<< "$response")   # get all but the last line which con>
+
+return "$http_code"
+
+}
 
 # Main script execution
 
