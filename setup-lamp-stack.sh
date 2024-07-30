@@ -54,13 +54,11 @@ install_lamp() {
 
     echo "Installing MySQL..."
 
-    sudo apt-get install -y mysql-server mariadb-server
+    sudo apt-get install -y mariadb-server
 
     
 
     sudo systemctl start apache2
-
-    sudo systemctl start mysql
 
     sudo systemctl start mariadb
 
